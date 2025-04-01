@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmBookBorrowHistories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookBorrowHistories.Designer.cs">
+      <DependentUpon>FrmBookBorrowHistories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBookList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookList.Designer.cs">
+      <DependentUpon>FrmBookList.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmBookManage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,13 +70,56 @@
     <Compile Include="FrmBookTransaction.Designer.cs">
       <DependentUpon>FrmBookTransaction.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmEditProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditProfile.Designer.cs">
+      <DependentUpon>FrmEditProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMainMenu.Designer.cs">
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegister.Designer.cs">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShareData.cs" />
+    <EmbeddedResource Include="FrmBookBorrowHistories.resx">
+      <DependentUpon>FrmBookBorrowHistories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookList.resx">
+      <DependentUpon>FrmBookList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmBookManage.resx">
       <DependentUpon>FrmBookManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmBookTransaction.resx">
       <DependentUpon>FrmBookTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditProfile.resx">
+      <DependentUpon>FrmEditProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMainMenu.resx">
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegister.resx">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -74,6 +129,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -87,6 +143,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BookLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Blackvariant-Button-Ui-System-Folders-Alt-Home.64.png" />
+    <Content Include="Resources\BookLogo.ico" />
+    <Content Include="Resources\cancel.png" />
+    <None Include="Resources\Martz90_Circle_Books_48.png" />
+    <None Include="Resources\Itzikgur_My_Seven_Books_1_48.png" />
+    <None Include="Resources\Custom_Icon_Design_Flatastic_9_Logout_48.png" />
+    <Content Include="Resources\Home48.png" />
+    <Content Include="Resources\Itzikgur-My-Seven-Books-1.512.png" />
+    <Content Include="Resources\MainMenu.png" />
+    <Content Include="Resources\MainMenu1.png" />
+    <Content Include="Resources\search.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
