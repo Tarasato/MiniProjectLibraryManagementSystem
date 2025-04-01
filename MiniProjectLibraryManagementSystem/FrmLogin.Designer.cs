@@ -60,7 +60,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::MiniProjectLibraryManagementSystem.Properties.Resources.BookLogo;
-            this.pictureBox1.Location = new System.Drawing.Point(302, 63);
+            this.pictureBox1.Location = new System.Drawing.Point(269, 63);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(64, 55);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -72,7 +72,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(372, 63);
+            this.label1.Location = new System.Drawing.Point(339, 63);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(219, 55);
             this.label1.TabIndex = 4;
